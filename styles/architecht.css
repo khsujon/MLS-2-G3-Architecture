@@ -37,14 +37,22 @@
 /* Header design */
 .nav-bar{
   justify-content: space-between;
+  align-items: center;
 }
 
 .nav-items{
   list-style: none;
 }
 
+.brand{
+  font-weight: bold;
+  font-size: 3rem;
+}
+
 .nav-links{
   text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
   margin-right: 20px;
 }
 
