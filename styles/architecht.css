@@ -48,6 +48,10 @@ main{
   margin: 0 auto;
 }
 
+main>section{
+  margin-top: 130px;
+}
+
 
 /* Header design */
 .nav-bar{
@@ -100,11 +104,59 @@ main{
   margin-bottom: 20px;
 }
 
+/* Main Part */
+
+.teams{
+  align-items: center;
+  gap: 130px;
+}
+
+.team-img-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.team-features-container{
+  max-width: 530px;
+}
+
+.features-title{
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+
+#quick-list{
+  font-weight: 600;
+}
+
+#features{
+  color: #FF900E;
+}
+
+
 /* responsive media query */
 @media screen and (max-width: 576px){
-  .nav-bar, .nav-links{
+  .nav-bar, 
+  .nav-links, 
+  .teams{
     flex-direction: column;
   }
+
+  .team-img-container{
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .teams{
+    gap: 20px;
+  }
+  .team-features-container{
+    margin-left: 30px;
+  }
+
+
 }
+
+
 
 
