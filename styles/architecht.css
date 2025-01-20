@@ -136,6 +136,8 @@ main>section{
 
 
 /* responsive media query */
+
+/* Small devices */
 @media screen and (max-width: 576px){
   .nav-bar, 
   .nav-links, 
@@ -153,8 +155,15 @@ main>section{
   .team-features-container{
     margin-left: 30px;
   }
+}
 
+/* Medium devices */
+@media screen and (min-width: 576px) and (max-width: 992px){
 
+  .teams{
+    flex-direction: column;
+    gap: 20px;
+  }
 }
 
 
