@@ -92,6 +92,14 @@
 .banner-img{
   width: 100%;
   height: auto;
+  margin-bottom: 20px;
+}
+
+/* responsive media query */
+@media screen and (max-width: 576px){
+  .nav-bar, .nav-links{
+    flex-direction: column;
+  }
 }
 
 
